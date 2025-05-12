@@ -1,4 +1,4 @@
-# Lampforo Symfony  
+# Lampforo BlackStone Symfony  
 SEO-friendly business forum software for building large webmaster communities.
 
 ## Starting 🚀
@@ -30,7 +30,7 @@ The following steps are meant to be used on a development server.
 - Clone Project
 
 ```bash
-$ git clone https://github.com/lampforo/lampforo.git
+$ git clone https://github.com/lampforo/lampforo-blackstone.git
 ``` 
 - Setup vendor libraries 
 
@@ -46,7 +46,7 @@ $ composer install
 - Run server  
 
 ```bash
-$ php artisan serve
+$ symfony server:start
 ```
 
 
@@ -56,12 +56,12 @@ _Admin: admin@lampforo.com
 
 ## Technologies 🛠️
 
-* [Laravel 10](https://laravel.com/docs/10.x) 
+* [Symfony 6](https://laravel.com/docs/10.x) 
 
 ## Courses :movie_camera: 
 
 * [Youtube](https://www.youtube.com/@JonathanCastroDeveloper)
-* [Udemy](https://www.udemy.com/course/sistema-de-tickets-con-php-laravel/?couponCode=47BAAED09DDD330D2CC7)    
+* [Udemy](https://www.udemy.com/course/curso-symfony-7-desde-cero/?couponCode=D1F4FAB41D71F538FF98)    
 
 ## Author ✒️
 
