@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ {% block lang %}
+<html lang="en">
+ {% endblock %}
+    <head>
+        <meta charset="UTF-8">        
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="/assets/theme-blog/assets/favicon.ico" />
+             
+
+        {% block meta %}
+        <link rel="canonical" href="https://www.opengiscrm.com/" />    
+        <meta name="description" content="OpenGisCRM | Learn Programming With Open Tutorial, The Best Site To Develop Open Software">
+        <meta name="keywords" content="Open Tutorial, Open Software, Open Courses, Open Gis, Open Source, Open Blog, Open Services, Open Portfolio, Open About, Open Contact, Learn programming"/>      
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="OpenGisCRM | Learn Programming With Open Tutorial" />
+        <meta property="og:description" content="OpenGisCRM | Learn Programming With Open Tutorial, The Best Site To Develop Open Software" />
+        <meta property="og:image" content="assets/img/opengiscrm.jpg" /> 
+        <meta property="og:url" content="https://www.opengiscrm.com/" />       
+        {% endblock %}
+        
+      {#   <meta name="robots" content="index, follow"> #}
+        <meta name="author" content="OpenGisCRM">
+        <meta name="copyright" content="OpenGisCRM" />       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       
+        {% block stylesheets %}         
+ 
+            
+
+           
+        {% endblock %}
+
+        {#  <link rel="stylesheet" href="assets/css/style.css"> #}
+
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+
+      <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+
+
+
+
+          <!-- Font Awesome icons (free version)-->
+       {#  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script> #}
+        <!-- Google fonts-->    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+      {#   <link href="/assets/theme-blog/css/styles.css" rel="stylesheet" /> #}
+        <link href="/assets/theme-blog/css/styles.min.css" rel="stylesheet" />
+          
+            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+
+    </head>
+    <body class="bg-light">
+        {% block body %}
+          
+
+        {% endblock %}
+   {% block javascripts %}
+
+    <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    
+   {% endblock %}
+    </body>
+</html>
